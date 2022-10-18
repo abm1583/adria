@@ -1,0 +1,7 @@
+k = int(input('обхват по бюсту:'))
+m = int(input('обхват по бедрам:'))
+n = int(input('обхват по талии:'))
+t = int(input('рост:'))
+p = int(input('вес:'))
+l = (k*m*t)/(n**2*p)
+print(l)
